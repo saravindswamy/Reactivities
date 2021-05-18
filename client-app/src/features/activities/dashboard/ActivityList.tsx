@@ -4,6 +4,7 @@ import { Fragment } from 'react';
 import { Header } from 'semantic-ui-react';
 import { useStore } from '../../../app/store/store';
 import ActivityListItem from './ActivityListItem';
+import React from 'react';
 
 
 export default observer(function ActivityList() {
